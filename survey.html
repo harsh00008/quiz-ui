@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<title>CMPE 280 Exam Assignment </title>
+
+</head>
+<body class="survey">
+
+	
+
+	<div class="container">
+		<header><h1>Welcome to Exam CMPE280</h1></header>
+		
+		<div class="question-box">
+			<div class="title-container">
+				<h3>Survey</h3>
+
+			</div>
+				<div class="box-container">
+					<div class="result-container">
+						<p>How do you like the center?</p>
+						
+								<fieldset>
+									<label for="comments">
+										Comments: 	
+									</label>
+										<textarea id="comment-box" name="comments" row="100"></textarea>
+									
+								</fieldset>
+								<div class="box left half">
+									<label for="city"> City:</label>
+								  <input class="datalist" list="cities" name="city">
+								  <datalist id="cities">
+								    <option value="San Jose">
+								    <option value="San Francisco">
+								    <option value="Mountain View">
+								    <option value="Palo Alto">
+								    <option value="Cupertino">
+								  </datalist>
+
+								</div>
+								<div class="box right half">
+									  <label for="room"> Room #:</label>
+								  <input class="datalist" list="rooms" name="room">
+								  <datalist id="rooms">
+								    <option value="Room 210">
+								    <option value="Room 211">
+							    	<option value="Room 212">
+						    		<option value="Room 213">
+					    			<option value="Room 214">
+								  </datalist>
+								</div>						
+								
+						</div>
+						<div class="button-container">
+								<button type="button" onclick="result()">Submit & Get Score</button>
+								<button type="button" onclick="result()">Skip & Get Score</button>
+						</div>
+						<form action="result.html" method="GET" name="survey-form" id="survey-form">
+							<input id="qt" type="text" hidden name="qt" value="0">
+							<input id="qt-ans" type="text" hidden name="qt-ans">
+					 		<input id="rd" type="text" hidden name="rd" value="0">
+					 		<input id="rd-ans" type="text" hidden name="rd-ans" value="0">
+					 		<input id="av" type="text" hidden name="av" value="0">
+					 		<input id="av-ans" type="text" hidden name="av-ans" value = "0">
+						</form>
+				</div>
+				
+			
+		</div>
+
+	</div>
+
+	<footer><span class="copyrights">All rights reserved 2015</span></footer>
+	<script src="./js/lib.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

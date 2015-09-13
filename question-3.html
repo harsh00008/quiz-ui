@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<title>CMPE280 Web UI Assignment </title>
+
+</head>
+<body class="question-page question-3">
+
+	
+
+	<div class="container">
+		<header><h1>Welcome to Exam CMPE280</h1></header>
+		
+		<div class="question-box">
+			<div class="title-container">
+				<h3>Question 3</h3>
+
+			</div>
+			<div class="box-container">
+					<div class="box left">
+						<p class="question">
+							As per the latest twitter news, complete the article snippet given by selecting  appropriate choices in the blank.
+						</p>
+
+						
+							<div class="option-container">
+								<fieldset class="half" id="group-1">
+									<div class="option">
+										<label>
+									  		<input type="radio" data-val="$650" name="option-left" value="a" onclick='fillInTheBlanks("option-left", "text-1")' unchecked>
+									  		<p>Option 1 Mark 1: $650</p>
+									  		
+									  	</label>
+								  	</div>
+								  	<div class="option">
+								    	<label>
+									      	<input type="radio" data-val="$550" name="option-left" value="b" onclick='fillInTheBlanks("option-left", "text-1")' unchecked>
+									      	<p>Option 2 Mark 1: $550</p>
+									      	
+								      </label>
+							      	</div>
+							      	<div class="option">
+							      		<label>
+									       	 <input type="radio" data-val="$750" name="option-left" value="c" onclick='fillInTheBlanks("option-left", "text-1")' unchecked>
+									       	 <p>Option 3 Mark 1: $750</p>
+									       	 
+									    </label>
+							        </div>
+								</fieldset>
+
+
+								<fieldset class="half" id="group-2">
+									<div class="option">
+								  		<label>
+									    	<input type="radio" data-val="Twitter" name="option-right" value="d" onclick='fillInTheBlanks("option-right", "text-2")' unchecked>
+									    	<p>Option 1 Mark 2: Twitter</p>
+									    </label>
+
+								    </div>
+								    <div class="option">
+							      		<label>
+									       	 <input type="radio" data-val="Google" name="option-right" value="e" onclick='fillInTheBlanks("option-right", "text-2")' unchecked>
+									       	 <p>Option 2 Mark 2: Google</p>
+									       	 
+									    </label>
+							        </div>
+
+							        <div class="option">
+							      		<label>
+									       	 <input type="radio" name="option-right" data-val="Facebook" value="f" onclick='fillInTheBlanks("option-right", "text-2")' unchecked>
+									       	 <p>Option 3 Mark 2: Facebook</p>
+									    </label>
+							        </div>
+								</fieldset>
+								  	
+								    
+						 		</div>
+						 		
+						 		</fieldset>
+						 		<form id="question-form" name="question-form" method="GET" action="question-4.html">
+							 		<input id="qt" type="text" hidden name="qt" value="0">
+							 		<input id="qt-ans" type="text" hidden name="qt-ans">
+							 		<input id="rd" type="text" hidden name="rd" value="0">
+							 		<input id="rd-ans" type="text" hidden name="rd-ans" value="0">
+							 		<input id="av" type="text" hidden name="av" value="0">
+							 		<input id="av-ans" type="text" hidden name="av-ans" value = "0">
+								</form>
+								
+							</div>
+					<div class="box right">
+						<p class="question-3-text" id="question-3-text">Twitter wants more cash. The company announced two
+							 <span id="text-1">$______</span> million debt offerings in a filling today, each with a potential $100 increase provided that the sales are oversubscribed. Assuming full tip, including $100 million boosters <span id="text-2">_____</span> will raise up to $1.5 billion with the two offerings.
+						</p>
+					</div>
+
+					<div class="button-container">
+						<button type="button" onclick="submitQuestion(3)" class="next">Submit & Next Question</button>
+						<button type="button" onclick="clearForm()" class="previous">Clear</button>
+					</div>
+					
+				</div>
+			</div>
+	</div>
+
+	<footer><span class="copyrights">All rights reserved 2015</span></footer>
+	<script src="./js/lib.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

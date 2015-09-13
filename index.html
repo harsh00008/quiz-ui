@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<title>CMPE280 Web UI Assignment </title>
+
+</head>
+<body class="login">
+
+	<header><h1>Welcome to Exam CMPE280</h1></header>
+
+	<div class="container login-page">
+		
+		
+		<div class="question-box login-box">
+			<div class="title-container">
+				<h3>Login</h3>
+
+			</div>
+			<div class="box full">
+				<span class="error" id="error"></span>
+				<form action="question-1.html" class="login-form" id="login-form" method="POST">
+					<fieldset>
+						<div class="login-input">
+							<span class="symbol-before">@</span>
+							<input type="email" name="email" required placeholder="Your email: xyz@domain.com">
+							<span class="symbol-after">*</span>
+						</div>
+						
+					
+						<div class="login-input">
+							<span class="symbol-before">*</span>
+							<input type="password" name="password" pattern=".{6,}" title="Six or more characters" required placeholder="Password">
+							<span class="symbol-after">*</span>
+						</div>
+						
+					</fieldset>
+
+					<div class="button-container">
+						<button type="submit" onclick="return login();">Login</button>
+						<a href="#" class="helper-link" title="Create a new account">Create Account?</a> 
+
+						<a href="#" class="helper-link" title="Forgot Password?">Forgot Password?</a> 
+						
+					</div>
+					
+
+				</form>
+				
+			</div>
+				
+		</div>
+
+	</div>
+</div>
+
+	<footer><span class="copyrights">All rights reserved 2015</span></footer>
+	<script src="./js/lib.js"></script>
+	<script src="./js/main.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<title>CMPE280 Web UI Assignment </title>
+
+</head>
+<body class="question-page question-2">
+
+	
+	<header><h1>Welcome to Exam CMPE280</h1></header>
+	<div class="container">
+		
+		
+		<div class="question-box">
+			<div class="title-container">
+				<h3>Question 2</h3>
+
+			</div>
+			<div class="box-container">
+					<div class="box full">
+						<span class="question">Select the cosine theorem formula</span>
+
+						
+							<fieldset>
+
+							<div class="option-container">
+								<div class="option">
+									<label>
+								  		<input type="radio" name="option" value="a" unchecked>
+								  		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>cos</mi><mfenced><mrow><mi>&#945;</mi><mo>&#177;</mo><mi>&#946;</mi></mrow></mfenced><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>cos</mi><mfenced><mi>&#945;</mi></mfenced><mi>cos</mi><mfenced><mi>&#946;</mi></mfenced><mo>&#160;</mo><mo>&#177;</mo><mi>sin</mi><mfenced><mi>&#945;</mi></mfenced><mi>sin</mi><mfenced><mi>&#946;</mi></mfenced></math>
+								  	</label>
+							  	</div>
+							  	<div class="option">
+							  		<label>
+								    	<input type="radio" name="option" value="b" unchecked>
+								    	<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>sin</mi><mfenced><mrow><mi>&#945;</mi><mo>&#177;</mo><mi>&#946;</mi></mrow></mfenced><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>sin</mi><mfenced><mi>&#945;</mi></mfenced><mi>cos</mi><mfenced><mi>&#946;</mi></mfenced><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mi>cos</mi><mfenced><mi>&#945;</mi></mfenced><mi>sin</mi><mfenced><mi>&#946;</mi></mfenced></math>
+								    </label>
+
+							    </div>
+							    <div class="option">
+							    	<label>
+								      	<input type="radio" name="option" value="c" unchecked>
+								      	<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>sin</mi><mfenced><mi>&#945;</mi></mfenced><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mi>sin</mi><mfenced><mi>&#946;</mi></mfenced><mo>=</mo><mn>2</mn><mi>sin</mi><mfenced><mfrac bevelled="true"><mrow><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi></mrow><mn>2</mn></mfrac></mfenced><mi>cos</mi><mfenced><mfrac bevelled="true"><mrow><mi>&#945;</mi><mo>-</mo><mi>&#946;</mi></mrow><mn>2</mn></mfrac></mfenced></math>
+							      </label>
+						      	</div>
+
+						      	<div class="option">
+						      		<label>
+								       	 <input type="radio" name="option" value="d" unchecked>
+								       	 <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>sin</mi><mfenced><mi>&#945;</mi></mfenced><mo>-</mo><mi>sin</mi><mfenced><mi>&#946;</mi></mfenced><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi>cos</mi><mfenced><mfrac bevelled="true"><mrow><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi></mrow><mn>2</mn></mfrac></mfenced><mi>sin</mi><mfenced><mfrac bevelled="true"><mrow><mi>&#945;</mi><mo>-</mo><mi>&#946;</mi></mrow><mn>2</mn></mfrac></mfenced></math>
+								    </label>
+						        </div>
+					 		</div>
+					 		
+					 		</fieldset>
+					 		<form id="question-form" name="question-form" method="GET" action="question-3.html">
+					 				<input id="qt" type="text" hidden name="qt" value="0">
+							 		<input id="qt-ans" type="text" hidden name="qt-ans">
+							 		<input id="rd" type="text" hidden name="rd" value="0">
+							 		<input id="rd-ans" type="text" hidden name="rd-ans" value="0">
+							 		<input id="av" type="text" hidden name="av" value="0">
+							 		<input id="av-ans" type="text" hidden name="av-ans" value = "0">
+							</form>
+							
+						</div>
+				
+
+				<div class="button-container">
+					<button type="button" onclick="submitQuestion(2)" class="next">Submit & Next Question</button>
+					<button type="button" onclick="clearForm()" class="previous">Clear</button>
+				</div>
+			</div>
+			
+			
+		</div>
+
+	</div>
+
+	<footer>
+		<span class="copyrights">All rights reserved 2015</span>
+	</footer>
+	<script src="./js/lib.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<title>CMPE280 Web UI Assignment </title>
+
+</head>
+<body class="question-page question-4">
+
+	
+
+	<div class="container">
+		<header><h1>Welcome to Exam CMPE280</h1></header>
+		
+		<div class="question-box">
+			<div class="title-container">
+				<h3>Question 4</h3>
+
+			</div>
+			<div class="box-container">
+					<div class="box left">
+						<p class="question">Watch the video and answer the following question.
+							What is the source as mentioned in the video?
+						</p>
+
+						<form id="question-form" name="question-form" method="GET" action="survey.html">
+								<fieldset>
+
+									<div class="option-container">
+										<div class="option">
+											<label>
+										  		<input type="radio" name="option" value="a" unchecked>
+										  		Nasa.Gov
+										  	</label>
+									  	</div>
+									  	<div class="option">
+									  		<label>
+										    	<input type="radio" name="option" value="b" unchecked>
+										    	Data.gov
+										    </label>
+
+									    </div>
+									    <div class="option">
+									    	<label>
+										      	<input type="radio" name="option" value="c" unchecked>
+										      	Facebook
+									      </label>
+								      	</div>
+								      	<div class="option">
+								      		<label>
+										       	 <input type="radio" name="option" value="d" unchecked>
+										       	 ab.xy
+										    </label>
+								        </div>
+							 		</div>
+						 		 
+						 		</fieldset>
+						 		<input id="qt" type="text" hidden name="qt" value="0">
+							 		<input id="qt-ans" type="text" hidden name="qt-ans">
+							 		<input id="rd" type="text" hidden name="rd" value="0">
+							 		<input id="rd-ans" type="text" hidden name="rd-ans" value="0">
+							 		<input id="av" type="text" hidden name="av" value="0">
+							 		<input id="av-ans" type="text" hidden name="av-ans" value = "0">
+								</form>
+								
+							</div>
+					<div class="box right">
+						<video controls="controls" poster="http://www.html5videoplayer.net/poster/toystory.jpg" width="100%" height="100%"><source src="http://www.html5videoplayer.net/videos/toystory.mp4" type="video/mp4"><img alt="HTML5 MP4/H.264 Video" src="http://www.html5videoplayer.net/poster/toystory.jpg" width="640" height="360" title="No video playback capabilities, please download the video below"></video>
+						
+
+					<div class="button-container">
+						<button type="button" onclick="submitQuestion(4)" class="next">Submit & Next Question</button>
+						<button type="button" onclick="clearForm()" class="previous">Clear</button>
+					</div>
+					
+				</div>
+			</div>
+			
+
+	</div>
+
+	<footer><span class="copyrights">All rights reserved 2015</span></footer>
+	<script src="./js/lib.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

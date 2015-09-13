@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<title>CMPE 280 Exam Assignment </title>
+
+</head>
+<body class="result">
+
+	
+
+	<div class="container">
+		<header><h1>Welcome to Exam CMPE280</h1></header>
+		
+		<div class="question-box">
+			<div class="title-container">
+				<h3>Result</h3>
+
+			</div>
+				
+				<div class="result-container">
+						<details>
+						  <summary>Quantitative Section</summary>
+						  
+						  <p><strong>Number of Questions Answered: </strong> <span class="score" id="qt-answered"></span> </p>
+						  <p><strong>Number of Correct Answer: </strong> <span class="score" id="qt-correct"></span> </p>
+						  <p><strong>Score: </strong> <span id="qt-score"></span></p>
+						  
+						</details>
+
+						<details>
+						  <summary>Reading Section</summary>
+						  
+						  <p><strong>Number of Questions Answered: </strong> <span class="score" id="rd-answered"></span> </p>
+						  <p><strong>Number of Correct Answer: </strong> <span class="score" id="rd-correct"></span> </p>
+						  <p><strong>Score: </strong> <span id="rd-score"></span></p>
+						  
+						</details>
+
+						<details>
+						  <summary>Audio/Video Section</summary>
+						  
+						  <p><strong>Number of Questions Answered: </strong> <span class="score" id="av-answered"></span> </p>
+						  <p><strong>Number of Correct Answer: </strong> <span class="score" id="av-correct"></span> </p>
+						  <p><strong>Score: </strong> <span id="av-score"></span></p>
+						  
+						</details>
+				</div>
+			
+		</div>
+
+
+
+	</div>
+
+	<input id="qt" type="text" hidden name="qt" value="0">
+							 		<input id="qt-ans" type="text" hidden name="qt-ans">
+							 		<input id="rd" type="text" hidden name="rd" value="0">
+							 		<input id="rd-ans" type="text" hidden name="rd-ans" value="0">
+							 		<input id="av" type="text" hidden name="av" value="0">
+							 		<input id="av-ans" type="text" hidden name="av-ans" value = "0">
+
+	<footer><span class="copyrights">All rights reserved 2015</span></footer>
+	<script src="./js/lib.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
