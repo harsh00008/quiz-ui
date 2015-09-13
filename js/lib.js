@@ -250,7 +250,7 @@ function populateScores(){
 	var qtScore = parseInt(getURLParameter("qt")) * 25;
 	var rdScore = parseInt(getURLParameter("rd")) * 25;
 	var avScore = parseInt(getURLParameter("av")) * 25;
-
+	
 	document.getElementById("qt-answered").innerHTML = "<strong>"+ getURLParameter("qt-ans") +"</strong>";
 	document.getElementById("rd-answered").innerHTML = "<strong>"+ getURLParameter("rd-ans") +"</strong>";
 	document.getElementById("av-answered").innerHTML = "<strong>"+ getURLParameter("av-ans") +"</strong>";
